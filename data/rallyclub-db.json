@@ -1,0 +1,390 @@
+{
+  "users": [
+    {
+      "id": "usr-customer-1",
+      "name": "Alex Rivera",
+      "email": "alex@rallyclub.com",
+      "phone": "+1 (555) 234-8901",
+      "role": "CUSTOMER",
+      "passwordHash": "088dd44bac42e500fa102c0431c3f1f74a33c0de2c9173f0c4ae1937d06d58c0",
+      "createdAt": "2026-01-15T09:00:00Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "membershipTier": "Padel Pro"
+    },
+    {
+      "id": "usr-staff-1",
+      "name": "Marcus Vance",
+      "email": "marcus.staff@rallyclub.com",
+      "phone": "+1 (555) 456-7890",
+      "role": "STAFF",
+      "passwordHash": "1df35c6a78c3d9a568f87b7b4c533cfdea24107d06be8133fae2e227c08621ee",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "membershipTier": "Founders Club"
+    },
+    {
+      "id": "usr-admin-1",
+      "name": "Elena Rostova",
+      "email": "elena.admin@rallyclub.com",
+      "phone": "+1 (555) 890-1234",
+      "role": "ADMIN",
+      "passwordHash": "0c2b7373740955d9913018cd0ff682137d1e577cd587947c9060880561ef74ff",
+      "createdAt": "2026-01-01T08:00:00Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "membershipTier": "Founders Club"
+    },
+    {
+      "id": "usr-customer-2",
+      "name": "David Chen",
+      "email": "david.chen@example.com",
+      "phone": "+1 (555) 789-3321",
+      "role": "CUSTOMER",
+      "passwordHash": "088dd44bac42e500fa102c0431c3f1f74a33c0de2c9173f0c4ae1937d06d58c0",
+      "createdAt": "2026-02-10T11:00:00Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "membershipTier": "Standard"
+    },
+    {
+      "id": "usr-customer-3",
+      "name": "Sophie Martin",
+      "email": "sophie.m@example.com",
+      "phone": "+1 (555) 654-9812",
+      "role": "CUSTOMER",
+      "passwordHash": "088dd44bac42e500fa102c0431c3f1f74a33c0de2c9173f0c4ae1937d06d58c0",
+      "createdAt": "2026-02-18T14:30:00Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "membershipTier": "Padel Pro"
+    },
+    {
+      "id": "usr-6e0e40b0",
+      "name": "Mateo Rossi",
+      "email": "mateo@example.com",
+      "phone": "+1 (555) 000-0000",
+      "role": "CUSTOMER",
+      "passwordHash": "0fbcc0746c20477eb030f175dc38b301e08f23a4eecf58e4612179a101002c16",
+      "createdAt": "2026-10-18T08:47:11.695Z",
+      "membershipTier": "Standard",
+      "avatarUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Mateo%20Rossi&backgroundColor=0f172a&textColor=ccff00"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "rc_sess_1d09da80417c8abb7b45113afed7c19f03645e29846ef1868749b5fd17c94c32",
+      "userId": "usr-customer-1",
+      "expiresAt": "2026-11-01T08:47:00.636Z"
+    },
+    {
+      "token": "rc_sess_1635e70e7a2c9980b029d18c4ff9853cfd2372d84999ea864d14b97a51c22779",
+      "userId": "usr-staff-1",
+      "expiresAt": "2026-11-01T08:47:05.200Z"
+    },
+    {
+      "token": "rc_sess_a7b203b11687726104d9f0208f2b5449772067a9a53d829c0dcc6e9db217020d",
+      "userId": "usr-admin-1",
+      "expiresAt": "2026-11-01T08:47:08.546Z"
+    },
+    {
+      "token": "rc_sess_6e804ff724061eba79221f256d62dd70b64e4b9e19b97ebb57769b354ab65c24",
+      "userId": "usr-6e0e40b0",
+      "expiresAt": "2026-11-01T08:47:11.695Z"
+    },
+    {
+      "token": "rc_sess_7021214e2b8354bc1a28d2ce211225f6dc8b8e21204daa3f3ac3d5b3539b5413",
+      "userId": "usr-customer-1",
+      "expiresAt": "2026-11-01T08:47:19.862Z"
+    },
+    {
+      "token": "rc_sess_101b62e588d381b60061daec2042f9a0b35b8a3d43e581331f1b984393e01db2",
+      "userId": "usr-customer-1",
+      "expiresAt": "2026-11-01T08:47:24.801Z"
+    },
+    {
+      "token": "rc_sess_98a6da5510312e6889809a462ae9e4f3c441401211943fdcb21b5f53c4c41d59",
+      "userId": "usr-customer-1",
+      "expiresAt": "2026-11-01T08:47:28.330Z"
+    }
+  ],
+  "resetTokens": [],
+  "courts": [
+    {
+      "id": "court-padel-1",
+      "name": "The Grand Panoramic Court 1",
+      "sport": "padel",
+      "type": "Indoor",
+      "surface": "Mondo Supercourt XN (World Padel Tour Spec)",
+      "glassType": "12mm Panoramic Tempered Glass",
+      "lighting": "8-unit Lumiance 3000K Anti-glare LED (1000 Lux)",
+      "hourlyRate": 65,
+      "peakHourlyRate": 85,
+      "image": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Panoramic 360 Glass",
+        "World Padel Tour Turf",
+        "HD Camera & Replay",
+        "Climate Controlled AC"
+      ],
+      "isActive": true,
+      "description": "Our flagship indoor panoramic padel stadium with zero corner pillar obstruction and tournament acoustic dampening."
+    },
+    {
+      "id": "court-padel-2",
+      "name": "The Obsidian Arena Court 2",
+      "sport": "padel",
+      "type": "Indoor",
+      "surface": "Italian Monofilament Blue Turf",
+      "glassType": "12mm Structural Safety Glass",
+      "lighting": "Linear LED Track 850 Lux",
+      "hourlyRate": 60,
+      "peakHourlyRate": 78,
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Matte Black Steel Frame",
+        "Acoustic Soundproofing",
+        "Digital Scoreboard",
+        "Lounge Seating"
+      ],
+      "isActive": true,
+      "description": "A striking dark-aesthetic indoor court designed for high-focus competitive sets and night leagues."
+    },
+    {
+      "id": "court-padel-3",
+      "name": "The Terrace Court 3",
+      "sport": "padel",
+      "type": "Covered",
+      "surface": "Textured Polyethylene Turf with Ceramic Quartz",
+      "glassType": "10mm Wind-Engineered Glass",
+      "lighting": "Phillips High-Bay LEDs",
+      "hourlyRate": 55,
+      "peakHourlyRate": 72,
+      "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Architectural Timber Canopy",
+        "Fresh Air Ventilation",
+        "Sunset Vantage Point",
+        "Court-side Hydration Bar"
+      ],
+      "isActive": true,
+      "description": "Semi-outdoor covered court sheltered by curved timber rafters, combining open fresh air with weather protection."
+    },
+    {
+      "id": "court-pickle-1",
+      "name": "Center Court Pickleball",
+      "sport": "pickleball",
+      "type": "Indoor",
+      "surface": "DecoTurf 5-Layer Pro Cushion System",
+      "lighting": "Pro-grade Diffused LED (900 Lux)",
+      "hourlyRate": 45,
+      "peakHourlyRate": 60,
+      "image": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Cushioned Acrylic Subfloor",
+        "Permanent Tournament Net",
+        "Spectator Bleachers",
+        "Line Precision Sensors"
+      ],
+      "isActive": true,
+      "description": "Engineered for optimal ball bounce and zero joint fatigue with multi-layer cushioned tournament acrylic."
+    },
+    {
+      "id": "court-pickle-2",
+      "name": "Skyline Terrace Pickleball",
+      "sport": "pickleball",
+      "type": "Outdoor",
+      "surface": "Plexipave All-Weather Ultra Grip",
+      "lighting": "Musco Sports Pole LEDs",
+      "hourlyRate": 40,
+      "peakHourlyRate": 55,
+      "image": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Rooftop Panoramic Views",
+        "Wind Screens",
+        "Outdoor Audio System",
+        "Sunset Sessions"
+      ],
+      "isActive": true,
+      "description": "Rooftop court overlooking the city skyline with professional wind fencing and twilight accent lighting."
+    },
+    {
+      "id": "court-pickle-3",
+      "name": "The Academy Pickleball Court 3",
+      "sport": "pickleball",
+      "type": "Indoor",
+      "surface": "Sport Court PowerGame+ Modular Surface",
+      "lighting": "800 Lux Overhead LED",
+      "hourlyRate": 42,
+      "peakHourlyRate": 56,
+      "image": "https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Lobster Ball Machine Integration",
+        "Video Coaching Mirroring",
+        "Target Grid Markers",
+        "Sound Isolation"
+      ],
+      "isActive": true,
+      "description": "Dedicated training studio court equipped for automated drills, ball machine sessions, and certified coaching."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "RC-BK-2026-801",
+      "userId": "usr-customer-1",
+      "userName": "Alex Rivera",
+      "userEmail": "alex@rallyclub.com",
+      "userPhone": "+1 (555) 234-8901",
+      "courtId": "court-padel-1",
+      "courtName": "The Grand Panoramic Court 1",
+      "sport": "padel",
+      "date": "2026-10-18",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "durationMinutes": 90,
+      "playersCount": 4,
+      "racketRentalCount": 2,
+      "ballTubeCount": 1,
+      "notes": "Please keep 2 left-handed Bullpadel rackets ready.",
+      "totalAmount": 147.5,
+      "peakHourSurcharge": 27.5,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Razorpay",
+      "transactionReference": "RC-TXN-98421",
+      "status": "Confirmed",
+      "createdAt": "2026-10-16T08:46:54.159Z"
+    },
+    {
+      "id": "RC-BK-2026-802",
+      "userId": "usr-customer-2",
+      "userName": "David Chen",
+      "userEmail": "david.chen@example.com",
+      "userPhone": "+1 (555) 789-3321",
+      "courtId": "court-pickle-1",
+      "courtName": "Center Court Pickleball",
+      "sport": "pickleball",
+      "date": "2026-10-18",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "durationMinutes": 60,
+      "playersCount": 2,
+      "racketRentalCount": 0,
+      "ballTubeCount": 1,
+      "notes": "Morning singles warm-up",
+      "totalAmount": 53,
+      "peakHourSurcharge": 0,
+      "paymentStatus": "Pay at Venue",
+      "paymentMethod": "Cash at Front Desk",
+      "transactionReference": "RC-TXN-98422",
+      "status": "Checked-In",
+      "createdAt": "2026-10-17T08:46:54.159Z"
+    },
+    {
+      "id": "RC-BK-2026-803",
+      "userId": "usr-customer-3",
+      "userName": "Sophie Martin",
+      "userEmail": "sophie.m@example.com",
+      "userPhone": "+1 (555) 654-9812",
+      "courtId": "court-padel-2",
+      "courtName": "The Obsidian Arena Court 2",
+      "sport": "padel",
+      "date": "2026-10-19",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "durationMinutes": 90,
+      "playersCount": 4,
+      "racketRentalCount": 0,
+      "ballTubeCount": 2,
+      "notes": "Evening mixed doubles league prep",
+      "totalAmount": 133,
+      "peakHourSurcharge": 25,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card",
+      "transactionReference": "RC-TXN-98423",
+      "status": "Confirmed",
+      "createdAt": "2026-10-18T03:46:54.159Z"
+    },
+    {
+      "id": "RC-BK-2026-799",
+      "userId": "usr-customer-1",
+      "userName": "Alex Rivera",
+      "userEmail": "alex@rallyclub.com",
+      "userPhone": "+1 (555) 234-8901",
+      "courtId": "court-pickle-2",
+      "courtName": "Skyline Terrace Pickleball",
+      "sport": "pickleball",
+      "date": "2026-10-17",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "durationMinutes": 60,
+      "playersCount": 4,
+      "racketRentalCount": 2,
+      "ballTubeCount": 1,
+      "totalAmount": 75,
+      "peakHourSurcharge": 15,
+      "paymentStatus": "Paid",
+      "paymentMethod": "UPI",
+      "transactionReference": "RC-TXN-98400",
+      "status": "Completed",
+      "createdAt": "2026-10-15T08:46:54.159Z"
+    },
+    {
+      "id": "RC-BK-2026-3968",
+      "userId": "usr-customer-1",
+      "userName": "Alex Rivera",
+      "userEmail": "alex@rallyclub.com",
+      "userPhone": "+1 (555) 234-8901",
+      "courtId": "court-padel-1",
+      "courtName": "The Grand Panoramic Court 1",
+      "sport": "padel",
+      "date": "2026-10-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "durationMinutes": 60,
+      "playersCount": 4,
+      "racketRentalCount": 2,
+      "ballTubeCount": 1,
+      "totalAmount": 85,
+      "peakHourSurcharge": 0,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Razorpay",
+      "transactionReference": "RC-TXN-47248",
+      "status": "Confirmed",
+      "createdAt": "2026-10-18T08:47:24.819Z"
+    }
+  ],
+  "courtBlocks": [
+    {
+      "id": "blk-1",
+      "courtId": "court-padel-1",
+      "date": "2026-10-18",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "reason": "Pro Coaching Clinic",
+      "notes": "Masterclass with head coach Carlos",
+      "createdBy": "Marcus Vance",
+      "createdAt": "2026-10-18T08:46:54.159Z"
+    },
+    {
+      "id": "blk-2",
+      "courtId": "court-padel-3",
+      "date": "2026-10-19",
+      "startTime": "08:00",
+      "endTime": "10:00",
+      "reason": "Maintenance",
+      "notes": "Turf quartz grooming & net tensioning",
+      "createdBy": "Marcus Vance",
+      "createdAt": "2026-10-18T08:46:54.159Z"
+    }
+  ],
+  "settings": {
+    "clubName": "Rally Club Padel & Pickleball",
+    "openingTime": "07:00",
+    "closingTime": "23:00",
+    "peakStartHour": "17:00",
+    "peakEndHour": "22:00",
+    "peakSurchargePercent": 25,
+    "racketRentalPrice": 6,
+    "ballTubePrice": 8,
+    "cancellationCutoffHours": 6,
+    "whatsappNotificationsEnabled": true,
+    "supportPhone": "+1 (555) 725-5928",
+    "address": "450 Grand Pavilion Way, Sports District, Suite 100"
+  }
+}

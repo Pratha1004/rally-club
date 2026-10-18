@@ -1,0 +1,6 @@
+{
+  "name": "Rally Club — Luxury Padel & Pickleball",
+  "description": "Premier Padel and Pickleball booking platform with real role-based authentication, real-time court availability, session management, and staff operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
